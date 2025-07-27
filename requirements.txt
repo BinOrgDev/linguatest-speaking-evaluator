@@ -7,3 +7,7 @@ filelock~=3.18.0
 fastapi~=0.115.14
 faster-whisper~=1.1.1
 python-multipart~=0.0.9
+
+pydantic~=2.11.7
+openai~=1.97.0
+python-dotenv~=1.1.1

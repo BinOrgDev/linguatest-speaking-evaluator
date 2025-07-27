@@ -13,6 +13,7 @@ RUN apt-get update && \
     apt-get install -y ffmpeg git && \
     apt-get clean
 
+COPY .env .env
 # Copy files
 COPY . .
 
